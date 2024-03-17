@@ -28,8 +28,8 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
 
-Our codes are based on the implementations of [ThreeStudio](https://github.com/threestudio-project/threestudio) and [GaussianDreamer](https://github.com/hustvl/GaussianDreamer).
-If you have any problem with the installation, you may search the issues in these two repos first.
+Our codes are based on the implementations of [ThreeStudio](https://github.com/threestudio-project/threestudio).
+If you have any problem with the installation, you may search the issues in their repos first.
 Also feel free to open a new issue here.
 
 ## Quickstart
