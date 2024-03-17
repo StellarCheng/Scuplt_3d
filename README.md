@@ -23,11 +23,6 @@ pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url http
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
 ```
 
-- Install glm (required by 3D Gaussian Splatting)
-```sh
-sudo apt-get install -y libglm-dev
-```
-
 - Install dependencies:
 ```sh
 pip install -r requirements.txt
