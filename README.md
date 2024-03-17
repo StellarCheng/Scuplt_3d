@@ -10,7 +10,7 @@ Recent works on text-to-3d generation show that using only 2D diffusion supervis
 ## Updates
 - 17/3/2024: Code Released.
 
-
+- Shape retrieval and processing code is to be updated   
 
 
 ## Installation

@@ -8,7 +8,6 @@ prompts=[ "a metal wristwatch",]
 
 for prompt in prompts:
     obj_file= prompt.replace(' ','_')
-    guide_sape=f'./load/general_shapes_obj/{obj_file}.obj'
+    guide_sape=f'./load/shapes_obj/{obj_file}.obj'
     command = f"python launch.py --config {config_file} --train --gpu 1 system.prompt_processor.prompt='{prompt}' system.guide_shape={guide_sape} system.loss.lambda_shape={0.1}"
     os.system(command)
-# 196830..
